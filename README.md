@@ -1,1 +1,1 @@
-# 3D-Renderer-Introduction-to-Ray-Tracing
+# 3D Renderer: Introduction to Ray Tracing
