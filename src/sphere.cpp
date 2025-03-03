@@ -5,7 +5,7 @@
 Sphere::Sphere(const Vec3& c, float r) : centro(c), radio(r) {}
 
 
-bool Sphere::intersection(const Ray& rayo, float t0) const {
+bool Sphere::intersection(const Ray& rayo, float& t0) const {
     Vec3 oc = rayo.origen - centro; // Vector desde el origen del rayo al centro de la esfera.
     float a = rayo.direccion.dot(rayo.direccion);
     float b = 2.0f * oc.dot(rayo.direccion);

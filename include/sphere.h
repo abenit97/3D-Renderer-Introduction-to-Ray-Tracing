@@ -28,7 +28,7 @@ public:
      * @param t0 Punto de intersección más cercano al origen del rayo, si lo hay.
      * @return true si hay una intersección, false si no.
      */
-    bool intersection(const Ray& rayo, float t0) const;
+    bool intersection(const Ray& rayo, float& t0) const;
 };
 
 #endif
